@@ -199,7 +199,8 @@ ul, li {
 	margin: 0;
 }
 .about {
-	display: block;
+	/* display: block;
+	position: relative; */
 }
 .ab {
 	font-family: 'Courier New', Courier, monospace;
@@ -207,7 +208,7 @@ ul, li {
 	margin-top: 20px;
 	font-size: 24px;
 }
-.text {
+.texty {
 	display: block;
 	position: relative;
 	text-align: left;
