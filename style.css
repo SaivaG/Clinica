@@ -3,7 +3,8 @@ body {
 	color: rgb(0, 0, 0); 
 	font-family: 'Montserrat', sans-serif;
 	padding: 0;
-	margin: 0;
+  margin: 0;
+  background: url(logo/back.jpg)
 }
 
 div, p, a, img, form, button {
@@ -199,14 +200,21 @@ ul, li {
 	margin: 0;
 }
 .about {
-	/* display: block;
-	position: relative; */
+	display: flex;
+	align-items: center;
 }
 .ab {
-	font-family: 'Courier New', Courier, monospace;
 	float: right;
-	margin-top: 20px;
+	font-size: 18px;
+	padding: 15px;
+}
+.text {
+	display: block;
+	position: relative;
+	text-align: center;
 	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .texty {
 	display: block;
@@ -227,6 +235,18 @@ ul, li {
 	text-align: center;
 	box-sizing: border-box;
 }
+.wi {
+	overflow: auto;
+}
+
+.wir {
+	width: 25%;
+	float: left;
+	padding: 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
 
 #footer {
 	background: #ADD8E6;
