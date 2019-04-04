@@ -246,7 +246,12 @@ ul, li {
 	text-align: center;
 	box-sizing: border-box;
 }
-
+.novosti {
+  display: block;
+	position: relative;
+	text-align: center;
+	margin-top: 30px;	
+}
 
 #footer {
 	background: #ADD8E6;
